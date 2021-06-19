@@ -1,0 +1,35 @@
+body{
+    height: 100%;
+}
+
+
+#logoContainer{
+    display: flex;
+    justify-content: center;
+    max-height: 290px;
+}
+
+.logo{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.formContainer{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+#input{
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+}
+#searchbar{
+    width: 500px;
+    border-radius: 30px;
+}
+
+.linebreak{
+width: 100%;
+}
