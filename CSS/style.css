@@ -1,35 +1,98 @@
 body{
-    height: 100%;
+
+    height: auto;
+
 }
 
+#linksMain{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+#l1{
+    
+}
+#l2{
+    margin-left: 10px;
+}
+#l3{
+    margin-left: 10px;
+}
 
 #logoContainer{
+
     display: flex;
     justify-content: center;
     max-height: 290px;
+
 }
 
 .logo{
+
     max-height: 100%;
     max-width: 100%;
+
 }
 
 .formContainer{
+
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
 }
 
 #input{
+
     display: flex;
     justify-content: center;  
     width: 100%;
+
 }
 #searchbar{
+    margin-top: 20px;
     width: 500px;
+    height: 50px;
     border-radius: 30px;
 }
 
 .linebreak{
-width: 100%;
+
+    width: 100%;
+
+}
+#buttons{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+#b1{
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+#b2{
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
 }
