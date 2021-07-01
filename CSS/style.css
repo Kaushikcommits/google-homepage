@@ -1,25 +1,38 @@
 body{
 
     height: auto;
-
+    font-size: small;
 }
 
 #linksMain{
     display: flex;
     justify-content: right;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #3b3b3b;
+   
+}
+#iconG{
+  margin-left: 20px;
+  align-self: center;
+
 }
 
 #l1{
-    
+    text-decoration: none;
+    color: #3b3b3b;
+    align-self: center;
 }
 #l2{
-    margin-left: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3b3b3b;
+    align-self: center;
 }
-#l3{
-    margin-left: 10px;
-}
+
 
 #logoContainer{
 
